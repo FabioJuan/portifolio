@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-size: 300%;
+    margin: 0%;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family:'monocraft',sans-serif;
+    border: 100px;
+    border-color: blueviolet;
+}
+p{
+    font-family: 'monocraft',sans-serif;
+    color: white;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+div{
+    margin: 5px;
+}
+#fabill{
+    border-radius: 50%;
+    height: 30%;
+    width: 30%;
+    text-align: center;
+}
+#redes{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#cont{
+    font-size: medium;
+    display: flex;
+}
+@font-face {
+    font-family: 'monocraft';
+    src: url(MONOCRAFT.TTC);
+}
+html{
+    background-image: linear-gradient(black,rgb(3, 18, 68),rgb(100, 235, 253)); 
+}
+footer{
+    background-color:rgb(39, 39, 39) ;
+    display: flex;
+    margin: 0px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
