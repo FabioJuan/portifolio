@@ -37,6 +37,24 @@ div{
 #cont{
     font-size: medium;
     display: flex;
+
+}
+@media (max-width: 518px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 294px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 10px;
+    }
+
 }
 @font-face {
     font-family: 'monocraft';
@@ -46,6 +64,7 @@ html{
     background-image: linear-gradient(black,rgb(3, 18, 68),rgb(100, 235, 253)); 
 }
 footer{
+    text-align: center;
     background-color:rgb(39, 39, 39) ;
     display: flex;
     margin: 0px;
