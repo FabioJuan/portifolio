@@ -9,10 +9,12 @@ h1{
     font-family:'monocraft',sans-serif;
     border: 100px;
     border-color: blueviolet;
+    margin: 5px;
 }
 p{
     font-family: 'monocraft',sans-serif;
     color: white;
+    margin: 5px;
 }
 header{
     text-align: center;
