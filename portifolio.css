@@ -1,3 +1,6 @@
+html{
+    background-image: linear-gradient(black,rgb(54, 18, 110),rgb(184, 100, 253)); 
+}
 body{
     text-align: center;
     font-size: 300%;
@@ -10,66 +13,170 @@ h1{
     border: 100px;
     border-color: blueviolet;
     margin: 5px;
+    font-size: 71pt;
+    height: auto;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family:'monocraft',sans-serif;
+    border: 100px;
+    border-color: blueviolet;
+    margin: 5px;
+    font-size: 65pt;
 }
 p{
+    display: flex;
     font-family: 'monocraft',sans-serif;
     color: white;
     margin: 5px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 header{
+    margin-top: 80px;
     text-align: center;
 }
 main{
+    max-width: 100%;
+    height: auto;
     text-align: center;
 }
 div{
     margin: 5px;
 }
+
+#explicacao{
+    font-size: 30pt;
+    text-align: justify;
+}
 #fabill{
     border-radius: 50%;
     height: 30%;
     width: 30%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
 }
 #redes{
-    height: 50px;
-    width: 50px;
+    height: auto;
+    width: 70%;
     border-radius: 50%;
 }
 #cont{
     font-size: medium;
     display: flex;
+    flex: 1;
+}
+#email{
+    justify-content: center;
+    width: 100%;
+}
+.sou_eu{
+    display: flexbox;
+}
+.sessao{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
-@media (max-width: 518px){
-    h1{
-        font-size: 30px;
-    }
-    p{
-        font-size: 20px;
-    }
+.img_ex{
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    border: 6px double white;
 }
-@media (max-width: 294px){
+.p_ex{
+    width: 50%;
+    height: auto;
+    font-size: 30pt;
+    text-align: justify;
+    margin:  10px;
+}
+.links{
+    display: flex;
+    flex: 1;
+}
+.f_elem{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1200px){
     h1{
-        font-size: 20px;
+        font-size: 50pt;
     }
-    p{
-        font-size: 10px;
+    h2{
+        font-size: 40pt;
+        text-align: center;
     }
+    .sessao{
+        display: block;
+    }    
+    .img_ex{
+        width: 100%;
+    }
+    .p_ex{
+        font-size: 32pt;
+        width: 100%;
+        text-align: left;
+    }
+    
+    #cont{
+        display: none;
+        flex: 1;
+    }
+    #explicacao{
+        font-size: 32pt;
+    }
+
+
+}
+
+@media (max-width: 800px){
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: medium;
+        text-align: center;
+    }
+    .sessao{
+        display: block;
+    }    
+    .img_ex{
+        width: 100%;
+    }
+    .p_ex{
+        font-size: medium;
+        width: 100%;
+        text-align: left;
+    }
+    
+    #cont{
+        display: none;
+        flex: 1;
+    }
+    #explicacao{
+        font-size: medium;
+    }
+
 
 }
 @font-face {
     font-family: 'monocraft';
     src: url(MONOCRAFT.TTC);
-}
-html{
-    background-image: linear-gradient(black,rgb(3, 18, 68),rgb(100, 235, 253)); 
-}
-footer{
-    text-align: center;
-    background-color:rgb(39, 39, 39) ;
-    display: flex;
-    margin: 0px;
-    flex-wrap: wrap;
-    flex-grow: 1;
 }
