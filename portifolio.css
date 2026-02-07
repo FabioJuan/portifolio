@@ -5,11 +5,11 @@ body{
     text-align: center;
     font-size: 300%;
     margin: 0%;
+    font-family: monospace;
 }
 h1{
     color: white;
     text-align: center;
-    font-family:'monocraft',sans-serif;
     border: 100px;
     border-color: blueviolet;
     margin: 5px;
@@ -19,7 +19,6 @@ h1{
 h2{
     color: white;
     text-align: center;
-    font-family:'monocraft',sans-serif;
     border: 100px;
     border-color: blueviolet;
     margin: 5px;
@@ -27,7 +26,6 @@ h2{
 }
 p{
     display: flex;
-    font-family: 'monocraft',sans-serif;
     color: white;
     margin: 5px;
     text-align: center;
@@ -73,13 +71,14 @@ div{
 }
 #email{
     justify-content: center;
-    width: 100%;
+    font-size: larger;
+
 }
 .sou_eu{
     display: flexbox;
 }
 .sessao{
-    display: inline-flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
@@ -88,13 +87,13 @@ div{
 
 }
 .img_ex{
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: 10px;
     border: 6px double white;
 }
 .p_ex{
-    width: 50%;
+    width: 100%;
     height: auto;
     font-size: 30pt;
     text-align: justify;
@@ -141,6 +140,8 @@ div{
     }
     #explicacao{
         font-size: 32pt;
+    }#email{
+        font-size: large;
     }
 
 
@@ -173,10 +174,10 @@ div{
     #explicacao{
         font-size: medium;
     }
+    #email{
+        font-size: medium;
+    }
 
 
 }
-@font-face {
-    font-family: 'monocraft';
-    src: url(MONOCRAFT.TTC);
-}
+
